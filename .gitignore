@@ -1,0 +1,42 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+ENV/
+env/
+
+# -----------------------------
+# Streamlit cache
+# -----------------------------
+.streamlit/
+
+# -----------------------------
+# FAISS index and embeddings
+# -----------------------------
+faiss_index/
+*.faiss
+*.pkl
+
+# -----------------------------
+# Jupyter notebooks checkpoints
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# System / Editor files
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
